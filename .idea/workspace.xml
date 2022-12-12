@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67de1a62-aa88-4236-9c2d-5cb700f424e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airlineReservationsSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/airline/AirlineMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/airline/AirlineMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,28 +32,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_directory_selection": "C:/Users/user/IdeaProjects/airlineReservationsSystem/src",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/user/IdeaProjects/airlineReservationsSystem/src&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="passenger" />
       <recent name="airline" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AirlineTest">
+  <component name="RunManager" selected="Application.AirlineMain">
+    <configuration name="AirlineMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="airline.AirlineMain" />
+      <module name="airlineReservationsSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="airline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AirlineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="airlineReservationsSystem" />
       <extension name="coverage">
@@ -69,22 +79,6 @@
       <option name="PACKAGE_NAME" value="airlineTest" />
       <option name="MAIN_CLASS_NAME" value="airlineTest.AirlineTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AirlineTest.testThatIfPassengerSelectOne_FirstClassSeatIsAssigned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="airlineReservationsSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="airlineTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="airlineTest" />
-      <option name="MAIN_CLASS_NAME" value="airlineTest.AirlineTest" />
-      <option name="METHOD_NAME" value="testThatIfPassengerSelectOne_FirstClassSeatIsAssigned" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AirlineMain" />
         <item itemvalue="JUnit.AirlineTest" />
         <item itemvalue="JUnit.AirlineTest.testThatIfPassengerSelectsEconomyAndThePassengerBooksFlight_SeatNumberIsAssignedBetweenSixToTen" />
         <item itemvalue="JUnit.AirlineTest.testThatIfPassengerSelectsClassTypeOneAndThePassengerBooksFlight_SeatNumberIsAssignedBetweenOneToFive" />
         <item itemvalue="JUnit.AirlineTest.testThatIfPassengerSelectTwo_ECONOMYSeatIsAssigned" />
-        <item itemvalue="JUnit.AirlineTest.testThatIfPassengerSelectOne_FirstClassSeatIsAssigned" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +149,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670427727334</updated>
-      <workItem from="1670427729518" duration="26811000" />
+      <workItem from="1670427729518" duration="32678000" />
+      <workItem from="1670843356321" duration="1767000" />
     </task>
     <servers />
   </component>
