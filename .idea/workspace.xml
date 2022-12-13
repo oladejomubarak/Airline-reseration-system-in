@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="67de1a62-aa88-4236-9c2d-5cb700f424e0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/airline/AirlineMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/airline/AirlineMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
       <recent name="airline" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AirlineMain">
+  <component name="RunManager" selected="JUnit.AirlineTest">
     <configuration name="AirlineMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="airline.AirlineMain" />
       <module name="airlineReservationsSystem" />
@@ -133,8 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AirlineMain" />
         <item itemvalue="JUnit.AirlineTest" />
+        <item itemvalue="Application.AirlineMain" />
         <item itemvalue="JUnit.AirlineTest.testThatIfPassengerSelectsEconomyAndThePassengerBooksFlight_SeatNumberIsAssignedBetweenSixToTen" />
         <item itemvalue="JUnit.AirlineTest.testThatIfPassengerSelectsClassTypeOneAndThePassengerBooksFlight_SeatNumberIsAssignedBetweenOneToFive" />
         <item itemvalue="JUnit.AirlineTest.testThatIfPassengerSelectTwo_ECONOMYSeatIsAssigned" />
@@ -150,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670427727334</updated>
       <workItem from="1670427729518" duration="32678000" />
-      <workItem from="1670843356321" duration="1767000" />
+      <workItem from="1670843356321" duration="3177000" />
     </task>
     <servers />
   </component>
